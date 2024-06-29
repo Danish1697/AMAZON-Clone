@@ -743,3 +743,44 @@ nav {
         }
     }
 }
+@media (max-width:300px){
+    nav{
+        .search{
+            select{
+                height: 35px;
+                width: 38px;
+                font-size: 0.4rem;
+            }
+            button{
+                height: 35px;
+                width: 38px;
+                svg{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+            input{
+                height: 33px;
+                font-size: 0.5rem;
+            }
+        }
+        .logo{
+            height: 27px;
+            width: 80px;
+        }
+        .address{
+            svg{
+                height: 13px;
+                width: 13px;
+            }
+            .heading{
+                .heading_1{
+                    font-size: 0.4rem;
+                }
+                .heading_2{
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+}
